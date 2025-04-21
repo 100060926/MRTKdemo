@@ -86,62 +86,62 @@ public class PianoScript : MonoBehaviour
     public void A() {
         piano[numOfClicks] = "A";
         numOfClicks++;
-        numOfC.text = ""+numOfClicks;
+        numOfC.text = "Number of notes clicked on the sequence so far:\n"+numOfClicks;
     }
     public void B() {
         piano[numOfClicks] = "B";
         numOfClicks++;
-        numOfC.text = ""+numOfClicks;
+        numOfC.text = "Number of notes clicked on the sequence so far:\n"+numOfClicks;
     }
     public void BFlat() {
         piano[numOfClicks] = "BFlat";
         numOfClicks++;
-        numOfC.text = ""+numOfClicks;
+        numOfC.text = "Number of notes clicked on the sequence so far:\n"+numOfClicks;
     }
     public void C() {
         piano[numOfClicks] = "C";
         numOfClicks++;
-        numOfC.text = ""+numOfClicks;
+        numOfC.text = "Number of notes clicked on the sequence so far:\n"+numOfClicks;
     }
     public void CSharp() {
         piano[numOfClicks] = "CSharp";
         numOfClicks++;
-        numOfC.text = ""+numOfClicks;
+        numOfC.text = "Number of notes clicked on the sequence so far:\n"+numOfClicks;
     }
     public void D() {
         piano[numOfClicks] = "D";
         numOfClicks++;
-        numOfC.text = ""+numOfClicks;
+        numOfC.text = "Number of notes clicked on the sequence so far:\n"+numOfClicks;
     }
     public void E() {
         piano[numOfClicks] = "E";
         numOfClicks++;
-        numOfC.text = ""+numOfClicks;
+        numOfC.text = "Number of notes clicked on the sequence so far:\n"+numOfClicks;
     }
     public void EFlat() {
         piano[numOfClicks] = "EFlat";
         numOfClicks++;
-        numOfC.text = ""+numOfClicks;
+        numOfC.text = "Number of notes clicked on the sequence so far:\n"+numOfClicks;
     }
     public void F() {
         piano[numOfClicks] = "F";
         numOfClicks++;
-        numOfC.text = ""+numOfClicks;
+        numOfC.text = "Number of notes clicked on the sequence so far:\n"+numOfClicks;
     }
     public void FSharp() {
         piano[numOfClicks] = "FSharp";
         numOfClicks++;
-        numOfC.text = ""+numOfClicks;
+        numOfC.text = "Number of notes clicked on the sequence so far:\n"+numOfClicks;
     }
     public void G() {
         piano[numOfClicks] = "G";
         numOfClicks++;
-        numOfC.text = ""+numOfClicks;
+        numOfC.text = "Number of notes clicked on the sequence so far:\n"+numOfClicks;
     }
     public void GSharp() {
         piano[numOfClicks] = "GSharp";
         numOfClicks++;
-        numOfC.text = ""+numOfClicks;
+        numOfC.text = "Number of notes clicked on the sequence so far:\n"+numOfClicks;
     }
 
 }
