@@ -1050,6 +1050,7 @@ GameObject:
   - component: {fileID: 161283992}
   - component: {fileID: 161283991}
   - component: {fileID: 161283999}
+  - component: {fileID: 161284000}
   m_Layer: 0
   m_Name: pianoSheet2
   m_TagString: Untagged
@@ -1634,6 +1635,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &161284000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 161283989}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe9323ca265114b4282b5d33b41f7adc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  distanceThreshold: 20
 --- !u!1001 &170166290
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5357,6 +5371,7 @@ GameObject:
   - component: {fileID: 690364229}
   - component: {fileID: 690364228}
   - component: {fileID: 690364236}
+  - component: {fileID: 690364237}
   m_Layer: 0
   m_Name: pianoSheet1
   m_TagString: Untagged
@@ -5833,6 +5848,19 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &690364237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 690364227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe9323ca265114b4282b5d33b41f7adc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  distanceThreshold: 20
 --- !u!1 &705416985
 GameObject:
   m_ObjectHideFlags: 0
@@ -5997,6 +6025,7 @@ GameObject:
   - component: {fileID: 709648207}
   - component: {fileID: 709648206}
   - component: {fileID: 709648214}
+  - component: {fileID: 709648215}
   m_Layer: 0
   m_Name: pianoSheet3
   m_TagString: Untagged
@@ -6581,6 +6610,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &709648215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 709648204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe9323ca265114b4282b5d33b41f7adc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  distanceThreshold: 20
 --- !u!1001 &718886527
 PrefabInstance:
   m_ObjectHideFlags: 0
